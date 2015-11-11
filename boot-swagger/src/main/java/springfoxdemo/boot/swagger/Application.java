@@ -28,7 +28,7 @@ import static com.google.common.collect.Lists.*;
 import static springfox.documentation.builders.PathSelectors.*;
 
 @SpringBootApplication
-@EnableSwagger //Enable swagger 1.2 spec
+//@EnableSwagger //Enable swagger 1.2 spec
 @EnableSwagger2 //Enable swagger 2.0 spec
 @ComponentScan(basePackageClasses = {
         PetController.class,
